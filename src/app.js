@@ -1,3 +1,5 @@
+'use strict';
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
@@ -37,6 +39,7 @@ app.use(function (req, res, next) {
     next();
 });
 
+//chamando a rota
 app.use('/', indexRoute);
 app.use('/products', productRoute);
 app.use('/customers', customerRoute);
