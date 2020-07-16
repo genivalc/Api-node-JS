@@ -2,6 +2,7 @@
 
 const express = require('express');
 const router = express.Router();
+//Referenciando o controller
 const controller = require('../controllers/product-controller');
 const authService = require('../services/auth-service');
 
