@@ -9,7 +9,7 @@ const config = require('./config');
 
 const app = express();
 const router = express.Router();
- //  mongodb+srv://genival:123456gege@ndstr.1jydz.azure.mongodb.net/<ndstr>?retryWrites=true&w=majority
+ //  
 // Connecta ao banco
 mongoose.connect(config.connectionString);
 
